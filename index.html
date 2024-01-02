@@ -34,8 +34,8 @@
 </head>
 <body class="overflow-x-hidden font-mullish relative subpixel-antialiased">
     <!-- Navbar -->
-    <nav class="bg-deepBlue">
-        <div class="relative w-[1080px] mx-auto flex items-center justify-evenly">
+    <nav class="bg-deepBlue ">
+        <div class="relative w-[1092px] mx-auto flex items-center justify-evenly">
             <!-- logo -->
             <a href="/" class="cursor-grab py-7 pr-7">
                 <img
@@ -44,49 +44,49 @@
                  width="125px"
                  height="30px">
             </a>
-            <ul class="flex space-x-8">
+            <ul class=" flex space-x-8">
                 <li class="text-white font-mullish py-7 hover:text-lightBlue
-                 cursor-pointer ease-out duration-300 relative group">
+                 cursor-pointer ease-out duration-300 relative group hidden lg:block">
                     <a href="#">Payments</a>
                     <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden
                     group-hover:block ease-out duration-300">
                     </div>
                 </li>
                 <li class="text-white font-mullish py-7 hover:text-lightBlue
-                cursor-pointer ease-out duration-300 relative group">
+                cursor-pointer ease-out duration-300 relative group hidden lg:block">
                    <a href="#">Banking</a>
                    <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden
                    group-hover:block ease-out duration-300">
                    </div>
                 </li>
                 <li class="text-white font-mullish py-7 hover:text-lightBlue
-                cursor-pointer ease-out duration-300 relative group">
+                cursor-pointer ease-out duration-300 relative group hidden lg:block">
                     <a href="#">Corporate Card</a>
                     
                 </li>
                 <li class="text-white font-mullish py-7 hover:text-lightBlue
-                cursor-pointer ease-out duration-300 relative group">
+                cursor-pointer ease-out duration-300 relative group hidden lg:block">
                     <a href="#">Payroll</a>
                     <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden
                     group-hover:block ease-out duration-300">
                     </div>
                 </li>
                 <li class="text-white font-mullish py-7 hover:text-lightBlue
-                cursor-pointer ease-out duration-300 relative group">
+                cursor-pointer ease-out duration-300 relative group hidden lg:block">
                     <a href="#">Resources</a>
                     <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden
                     group-hover:block ease-out duration-300">
                     </div>
                 </li>
                 <li class="text-white font-mullish py-7 hover:text-lightBlue
-                cursor-pointer ease-out duration-300 relative group">
+                cursor-pointer ease-out duration-300 relative group hidden lg:block">
                 <a href="#">Support</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden
                 group-hover:block ease-out duration-300">
                 </div>
                 </li>
                 <li class="text-white font-mullish py-7 hover:text-lightBlue
-                cursor-pointer ease-out duration-300 relative group">
+                cursor-pointer ease-out duration-300 relative group hidden lg:block">
                 <a href="#">Pricing</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden
                 group-hover:block ease-out duration-300">
@@ -96,9 +96,9 @@
             <div class="flex items-center space-x-6">
                 <img src="./images/india-flag.svg" alt="india-flag"
                 width="28px"
-                height="26px" class="ml-4">
+                height="26px" class="ml-4 hidden lg:block">
                 <button class="py-3 px-5 font-mullish text-white text-sm
-                    border-solid border border-lightBlue rounded-md font-bold" >
+                    border-solid border border-lightBlue rounded-md font-bold " >
                     Log in
                 </button>
                 <button class="text-blue-500 py-3 px-4 font-mullish text-sm
@@ -112,7 +112,7 @@
     </nav>
     <!-- Hero Section -->
     <section class=" bg-deepBlue relative font-mullish">
-        <div class="w-9/12 text-white flex flex-row justify-between
+        <div class="w-9/12 text-white flex flex-col lg:flex-row justify-between
         items-center mx-auto">
             <div class="flex flex-col gap-5 w-72">
                 <h1 class="text-4xl font-bold leading-[1.2]">Power your finance, grow your business</h1>
@@ -174,7 +174,7 @@
                             <span>In-depth Reporting and Insights</span>
                         </li>
                     </ul>
-                    <div class="flex items-center">
+                    <div class="flex items-center leading-6 flex-col-reverse md:flex-row">
                         <button class="bg-blue-500 p-4 border-solid rounded-md
                          text-white font-bold hover:bg-blue-600">Sign Up Now</button>
                         <div>
@@ -183,12 +183,12 @@
                         
                     </div>
                 </div>
-                <!-- right section -->
+                <!-- right section --> 
                 <img src="./images/payment-suite.png" alt=""  
-                class="absolute max-w-[600px] right-0 bottom-0">
+                class="absolute max-w-[600px] right-0 bottom-0 hidden md:max-w-[400px] ld:max-w-[600px] md:block ld:block">
             </div>
             <!-- 6 Boxes -->
-            <section class="w-auto grid grid-cols-3 gap-4 mt-11">
+            <section class="w-auto grid grid-cols-1 gap-4 mt-11 lg:grid-cols-3 ">
                 <!-- box1 -->
                 <div class="w-full min-h-[15rem] relative cursor-pointer hover:scale-105 ease-in-out duration-300">
                     <img src="./images/payment-link-icon.svg" alt=""
@@ -419,16 +419,16 @@
             <!-- main feature box -->
             <div class="w-full min-h[440px] flex relative">
                 <img src="./images/x-flame-1.png" alt="" loading="lazy" class="
-                absolute -top-[142px] -left-[140px] w-[200px] z-10">
+                absolute -top-[142px] -left-[140px] w-[200px] z-10 lg:block md:hidden">
                 <img src="./images/x-flame-2.png" alt="" loading="lazy" class="
-                absolute -top-[150px] -right-[180px] w-[200px]">
+                absolute -top-[150px] -right-[180px] w-[200px] lg:block md:hidden">
                 <!-- content box -->
                 <div class="flex mx-auto border-solid border-2 border-slate-700 
                 rounded-md w-[1080px]  z-20 justify-between bg-deepBlue">
                     <!-- left part -->
                     <div class="p-9 text-white">
                         <h3 class="text-white font-bold text-3xl z-20">Manage your company’s finances with 
-                            <img src="./images/razorpayX.svg" alt="" width="168px" height="32px" class="inline">
+                            <img src="./images/razorpayX.svg" alt="" width="168px" height="32px" class="inline ">
                             <span class="inline text-greenLight ">Business Banking</span>
                         </h3>
                          
@@ -460,10 +460,10 @@
                         </div>
                     </div>
                     <!-- bg image -->
-                    <img src="./images/buisness-banking.png" alt="" width="550px">
+                    <img src="./images/buisness-banking.png" alt="" width="550px" class=" hidden  lg:block">
                 </div>
             </div>
-            <div class="w-full grid grid-cols-3 gap-4 mt-11 mx-auto ">
+            <div class="w-full grid sm:grid-cols-1 lg:grid-cols-3 gap-4 mt-11 mx-auto ">
                 <!-- box1 -->
                 <div class="w-full min-h-[15rem] relative cursor-pointer hover:scale-105 ease-in-out duration-300 ">
                     <img src="./images/current-icon.svg" alt=""
@@ -593,7 +593,7 @@
             <img src="./images/feature-section1-dottedrows.png" alt=""
             class="absolute w-[233px] -right-[3.5rem] -top-[6rem] -z-10">
 
-            <div class="w-full grid grid-cols-3 gap-y-10 gap-x-4 relative z-10">
+            <div class="w-full grid sm:grid-cols-1 lg:grid-cols-3 gap-y-10 gap-x-4 relative z-10">
                 <!-- item 1 -->
                 <div class="flex items-center">
                     <h2 class="text-3xl font-extrabold p-8 leading-10">New in the 
@@ -653,7 +653,7 @@
         <h3 class="text-white font-bold text-center pt-20 text-2xl">Features</h3>
         <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-4"></div>
         <p class="text-white text-center">Empower your business with all the right tools to accept <br>online payments and provide the best customer experience</p>
-        <div class="grid grid-cols-4 w-9/12 max-w-[1080px] relative mx-auto h-[600px]">
+        <div class="grid sm:grid-cols-1 lg:grid-cols-4 w-9/12 max-w-[1080px] relative mx-auto h-[600px]">
             <!-- card1 -->
             <div class="p-4 text-white">
                 <img src="./images/instant-activation-icon.svg" alt="">
@@ -709,7 +709,7 @@
     <section class="bg-[#f5f8fe] w-full relative pt-40 pb-12 -mt-[5px]">
         <div class="mx-auto w-9/12 flex max-w[1080px] pt-4">
             <!-- left part -->
-            <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+            <div class="flex flex-col justify-center max-w-[calc(100%-500px)] hidden lg:block">
                 <h2 class="text-2xl font-bold text-deepBlueHead">Join the 50,00,000+ businesses using Razorpay</h2>
                 <div class="w-6 h-1 bg-greenLight mt-2"></div>
                 <p class="text-slate-500 mt-7"><span class="font-bold">W</span>e make it easier for you to focus on building great products while we work on simplifying your payments.
@@ -737,7 +737,7 @@
             <!-- main content div -->
             <div class="flex justify-around">
                 <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute right-0 top-1/2
-                flex justify-center items-center ">
+                flex justify-center items-center hidden lg:block">
                       <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center
                       mix-blend-multiply">
                         <i
@@ -749,9 +749,9 @@
 
                 <div class="flex gap-16 p-8">
                     <!-- left img -->
-                     <img src="./images/testimonial.jpg" alt="" width="300px" height="300px" class="rounded-xl">
+                     <img src="./images/testimonial.jpg" alt="" width="300px" height="300px" class="rounded-xl hidden lg:block">
                      <!-- right part -->
-                     <div class="w-[400px] flex flex-col justify-around">
+                     <div class="w-[400px] flex flex-col lg:justify-around justify-center">
                         <img src="./images/quotes.svg" alt="" width="28px" height="28px">
                         <h3 class="font-extralight text-2xl ">Readymade Closed Wallet Solution For Quick Refunds</h3>
                         <a href="#"  class="text-slate-500 underline italic">Learn More</a>
@@ -762,7 +762,7 @@
                 </div>
 
                 <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute left-0 top-1/2
-                flex justify-center items-center ">
+                flex justify-center items-center hidden lg:block">
                       <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center
                       mix-blend-multiply">
                         <i
@@ -827,7 +827,7 @@
 
     </section>
     <!-- Footer Section -->
-    <section class="bg-[#f5f8fe] w-full relative -mt-7 mb-10">
+    <section class="bg-[#f5f8fe] w-full relative -mt-7 mb-10 hidden lg:block">
         <div class="w-9/12 relative flex flex-row mx-auto pt-11 justify-evenly gap-10">
             <!-- first div  -->
             <div class="w-[25%]">
